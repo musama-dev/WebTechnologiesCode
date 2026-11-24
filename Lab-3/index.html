@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY TASK </title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen">
+    <nav class="bg-blue-600 text-white p-4 flex justify-between">
+        <h1 class="text-xl font-bold">My Website</h1>
+        <button class="bg-white text-blue-600 px-4 py-2 rounded">
+            Login
+        </button>
+    </nav>
+    <main class="max-w-3xl mx-auto p-6">
+        <h2 class="text-3xl font-bold mb-2">
+        </h2>
+        <p class="text-gray-600 mb-5">
+            Learn Tailwind CSS with simple components.
+        </p>
+        <input
+            type="text"
+            placeholder="Search here..."
+            class="w-full p-3 border rounded-lg mb-6 bg-white"
+        >
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+            <div class="bg-white p-5 rounded-xl shadow">
+                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                    Active
+                </span>
+
+                <h3 class="text-xl font-bold mt-4">Card One</h3>
+
+                <p class="text-gray-600 my-3">
+                    This is a simple card component.
+                </p>
+
+                <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                    Explore
+                </button>
+            </div>
+
+            <div class="bg-white p-5 rounded-xl shadow">
+                <span class="bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full text-sm">
+                    New
+                </span>
+
+                <h3 class="text-xl font-bold mt-4">Card Two</h3>
+
+                <p class="text-gray-600 my-3">
+                    Tailwind makes styling easy.
+                </p>
+
+                <button class="bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-700">
+                    Learn More
+                </button>
+            </div>
+
+        </div>
+    </main>
+
+</body>
+</html>
